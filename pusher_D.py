@@ -13,7 +13,7 @@ import schedule
 class DingTalkBot:
     # 初始化webhook地址
     def __init__(self):
-        self.webhook_url = 'https://oapi.dingtalk.com/robot/send?access_token=459cf607cd4481a730ddbe3a15e9b359a06d87c3e252ceff93210b7255cb79fa'
+        self.webhook_url = 'https://oapi.dingtalk.com/robot/send?access_token='
         self.morning_time = time.strftime("%a, %d %b %Y", time.localtime())
         self.evening_time = time.strftime('%Y-%m-%d', time.localtime())
         # 设置早报推送时间
